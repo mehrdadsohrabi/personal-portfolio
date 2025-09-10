@@ -16,8 +16,8 @@ export default function HomePage() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div>
-              <h1 className="text-3xl font-bold text-foreground">Dr. Alex Chen</h1>
-              <p className="text-lg text-muted-foreground">Theoretical Computer Science Researcher</p>
+              <h1 className="text-3xl font-bold text-foreground">Dr. Mehrdad Sohrabi</h1>
+              <p className="text-lg text-muted-foreground">Researcher in Optimization at the University of Waterloo</p>
             </div>
             <nav className="flex gap-2">
               <Button
