@@ -78,7 +78,7 @@ export default function HomePage() {
                     <br />
                     <br />
                     Outside of academics, I spend a lot of time at the gym (chest day is my favorite). I also love
-                    hiking—if you suggest a trail, I'll always be up for it. My current bench press PR is 265 lbs. I
+                    hiking, if you suggest a trail, I'll always be up for it. My current bench press PR is 265 lbs. I
                     enjoy almost every sport, with the exception of climbing, American football, and baseball.
                   </p>
                 </div>
@@ -506,10 +506,19 @@ export default function HomePage() {
                   <p className="text-muted-foreground"><strong>Instructor:</strong> Levent Tuncel</p>
                   <p className="text-muted-foreground"><strong>My Grade:</strong> 100</p>
                   <p className="text-muted-foreground">
-                    <strong>Notes:</strong> By far, the best course I have ever taken at UW. This course was exactly the sweet spot that I want to do research, which is combinatorial optimization using algebraic tecniques. You get to use a lot of interesting results from convex optimization/linear algebra to solve some combinatorial problems (such as oloring perfect graphs!) 
-                    The course covers quite a lot of contents, including Duality, Ellipsoid method, Interior point methods, Max cut SDP, Lovasz theta function and Lift and project methods, application to number theory, extention complexity, convex algebraic geometry (You will prove Nullstellensatz type theorems using SDP!!!) and SCRM. 
+                    <strong>Notes:</strong> By far, the best course I have ever taken at UW. This course was exactly the
+                     sweet spot that I want to do research, which is combinatorial optimization using algebraic techniques. 
+                     You get to use a lot of interesting results from convex optimization/linear algebra to solve some combinatorial problems 
+                     (such as coloring perfect graphs!) 
+                    The course covers quite a lot of contents, including Duality,
+                     Ellipsoid method, Interior point methods, Max cut SDP, Lovasz 
+                     theta function and Lift and project methods, application to number theory, extension complexity,
+                      convex algebraic geometry (You will prove Nullstellensatz type theorems using SDP!!!) and SCRM. 
 
-                    Levent is a phenomenal professor, the most knowledgable person I have ever seen in my life. The course has 5 super difficult assignment, but they are very interesting. Also he is an extremely fair marker and cares about your learning. The course is super fast paced and you will be another person after taking this course. 
+                    Levent is a phenomenal professor, the most knowledgeable person
+                     I have ever seen in my life. The course has 5 super difficult assignments, but they are very 
+                     interesting. Also he is an extremely fair marker and cares about your learning. The course is super 
+                     fast paced and you will be another person after taking this course. 
                   </p>
                 </div>
               </CardContent>
@@ -542,9 +551,23 @@ export default function HomePage() {
                   <p className="text-muted-foreground"><strong>Instructor:</strong> Chaitanya Swamy</p>
                   <p className="text-muted-foreground"><strong>My Grade:</strong> 100</p>
                   <p className="text-muted-foreground">
-                    <strong>Notes:</strong> Another must take course in C&O department. I have a background in competitive programming so I thought I know matching and Network flows. But Levent suggested me to take this course and I am super glad that I listened to him. About half of the course is about matroids, which initially, I thought they are boring and just a formalization of greedy algorithms. But GOD I was wrong. 
-                    Even if the only thing I took away from this course was matroid intersection, I would still rate it 10/10. You will Also see how polyhedral optimization plays a crucial role in combinatorial optimization. Swamy is an excellent instructor. Assignments tend to be so long, since it is hard to formally write down algorithms and graph related problems, you have to define thousands of sets and mapping between them :(, but there are always questions which challenges your mind. Also there are a lot of bonuses which you can work on (There was an entire bonus assignment too). Take this course when you have a lighter work load and work on every single bonus problem cause they worth every minute of your time.
-                    The only part that I think it could have been better, was the proof of mimimum weight maximum mathcing algorithm. I think instead of the given primal dual algorithm (which is horrifying), it would have been better if we have proved that the matching polytope is integral, using T_joins and T-cuts (Amzing proof btw)!
+                    <strong>Notes:</strong> Another must take course in C&O department. I have 
+                    a background in competitive programming so I thought I know matching and Network flows.
+                     But Levent suggested me to take this course and I am super glad that I listened to him.
+                      About half of the course is about matroids, which initially, I thought they are boring and just a formalization 
+                      of greedy algorithms. But GOD I was wrong. 
+                    Even if the only thing I took away from this course was matroid intersection,
+                    I would still rate it a 10/10. You will Also see how polyhedral optimization plays a crucial
+                     role in combinatorial optimization. Swamy is an excellent instructor. Assignments tend to be so long,
+                      since it is hard to formally write down algorithms and graph related problems, you have to define
+                       thousands of sets and mapping between them :(, but there are always questions which challenges
+                        your mind. Also there are a lot of bonuses which you can work on 
+                        (There was an entire bonus assignment too). Take this course when you have a lighter work load and 
+                        work on every single bonus problem cause they worth every minute of your time.
+                    The only part that I think it could have been better, was the proof of minimum weight maximum
+                     matching algorithm. I think instead of the given primal dual algorithm (
+                      which is horrifying), it would have been better if we have proved that the matching polytope
+                       is integral, using T_joins and T-cuts (amazing proof btw)!
                   </p>
                 </div>
               </CardContent>
@@ -559,7 +582,7 @@ export default function HomePage() {
             >
               <div className="flex items-center justify-between">
                 <div>
-                  <CardTitle className="text-lg">Introduction to Optimization (Advance)</CardTitle>
+                  <CardTitle className="text-lg">Introduction to Optimization (Advanced)</CardTitle>
                   <CardDescription>CO 255 • Fall 2023</CardDescription>
                 </div>
                 {expandedProjects.includes("CS7530") ? (
@@ -576,8 +599,13 @@ export default function HomePage() {
                   <p className="text-muted-foreground"><strong>Instructor:</strong> Levent Tuncel</p>
                   <p className="text-muted-foreground"><strong>My Grade:</strong> 98</p>
                   <p className="text-muted-foreground">
-                    <strong>Notes:</strong> A wise man once said, It's always a good idea to take Levent's courses. When Levent proved min cut/ max flow using duality and TU matrices. Another memorable part of this course was learning that we can solve the Linear programming relaxation of TSP with subtour elimination constraint (which are exponentionally many) using ellipsoid method and network flows in Polynomial time.
-                    As I said in the comments of CO 471, Levent is the best instructor and the most knowledgable person I know. This course helped me to do a URA with him the summer after I took this course (and another one a year after).
+                    <strong>Notes:</strong> A wise man once said, It's always a good idea to take Levent's courses.
+                     When Levent proved min cut/ max flow using duality and TU matrices. Another memorable part of
+                      this course was learning that we can solve the Linear programming relaxation of TSP
+                       with subtour elimination constraint (which are exponentially many) using ellipsoid method and 
+                       network flows in Polynomial time.
+                    As I said in the comments of CO 471, Levent is the best instructor and the most knowledgeable person 
+                    I know. This course helped me to do a URA with him the summer after I took this course (and another one a year after).
                                       
                                       </p>
                 </div>
@@ -610,7 +638,15 @@ export default function HomePage() {
                   <p className="text-muted-foreground"><strong>Instructor:</strong>  Yu-Ru Liu</p>
                   <p className="text-muted-foreground"><strong>My Grade:</strong> 100</p>
                   <p className="text-muted-foreground">
-                    <strong>Notes:</strong>  An amazing course. After Pmath 347 (groups and rings), I thought algebra is not interesting. But this course, changed my mind. It's interesting that you start with a question which you can ask a fifth grader, and slowly build up your way to a super abstract field, and connecting the pieces and the end to solve the problem. It bothers me that he was already that smart around 20, while I’m nowhere near his level. The only reason I did not give a 10 to this course, is that Yu-Ru's courses are so easy that it stops you from learning. I took this course along side of 5 other pretty hard courses, thinking it's a super easy course, so I did have enough time to learn and appreciate the materials as much as I should.
+                    <strong>Notes:</strong>  An amazing course. After Pmath 347 (groups and rings), 
+                    I thought algebra is not interesting. But this course, changed my mind. It's interesting that you
+                     start with a question which you can ask a fifth grader, 
+                     and slowly build up your way to a super abstract field,
+                     and connecting the pieces and the end to solve the problem. 
+                     It bothers me that he was already that smart around 20, while I’m nowhere near his level. 
+                     The only reason I did not give a 10 to this course, is that Yu-Ru's courses 
+                     are so easy that it stops you from learning. I took this course along side of 5 other pretty hard courses, t
+                     hinking it's a super easy course, so I did have enough time to learn and appreciate the materials as much as I should.
                                                          </p>
                 </div>
               </CardContent>
@@ -643,7 +679,17 @@ export default function HomePage() {
                   <p className="text-muted-foreground"><strong>Instructor:</strong>  Peter Nelson</p>
                   <p className="text-muted-foreground"><strong>My Grade:</strong> 93</p>
                   <p className="text-muted-foreground">
-                    <strong>Notes:</strong> A very interesting course. You will learn extremal graph theory, Ramsey theory and probabilistic methods. Coloring and NWZ flows. I think I was a bit young when I took this course (I was in 2A) so If I go back I will probably wait for at least another year, not because of background reasons, but because of my writing style problems. I also did not quite enjoy Peter's style, even though he is an excellent lecturer. My favorite parts of the course wer NWZ flows and probabilistic methods, it reminded me a lot of the simple and interesting tricks we use to do in competitive programmings (Although you need a lot more knowledge). Extremal graph theory was really nice and amazing, but since I care more on the complexity side, it's a bit far from my research interest.                                    
+                    <strong>Notes:</strong> A very interesting course. You will learn extremal graph theory,
+                     Ramsey theory and probabilistic methods. Coloring and NWZ flows.
+                      I think I was a bit young when I took this course (I was in 2A) so If I go back I will probably 
+                      wait for at least another year, not because of background reasons,
+                       but because of my writing style problems. I also did not quite enjoy Peter's style, 
+                       even though he is an excellent lecturer. 
+                       My favorite parts of the course wer NWZ flows and probabilistic methods,
+                        it reminded me a lot of the simple and interesting tricks we use to do in
+                         competitive programmings (Although you need a lot more knowledge). 
+                         Extremal graph theory was really nice and amazing, but since I care more on the complexity side,
+                          it's a bit far from my research interest.                                    
                                       </p>
                 </div>
               </CardContent>
@@ -675,7 +721,10 @@ export default function HomePage() {
                   <p className="text-muted-foreground"><strong>Instructor:</strong>  Shai Ben David</p>
                   <p className="text-muted-foreground"><strong>My Grade:</strong> 100</p>
                   <p className="text-muted-foreground">
-                    <strong>Notes:</strong>  I heard a lot of hate on CS 245 and CS 245E. But I really enjoyed the course and it changed my view (I think this happens to everyone after you learn about Godel's incompleteness). The course was pretty slow, but I really loved what I learnt in this class.
+                    <strong>Notes:</strong>  I heard a lot of hate on CS 245 and CS 245E. 
+                    But I really enjoyed the course and it changed my view (I think this happens to everyone 
+                    after you learn about Godel's incompleteness). The 
+                    course was pretty slow, but I really loved what I learnt in this class.
                                                           </p>
                 </div>
               </CardContent>
@@ -707,8 +756,12 @@ export default function HomePage() {
                   <p className="text-muted-foreground"><strong>Instructor:</strong>  Steve Vavasis</p>
                   <p className="text-muted-foreground"><strong>My Grade:</strong> 100</p>
                   <p className="text-muted-foreground">
-                    <strong>Notes:</strong>  It was a solid intorudction to convex analysis, but I expected more from this course, having taken CO 255 and CO 442 before.
-                    It helped me improve my analysis. Vavasis is a pretty good lecturer, but he proves every single detail which caused the course to move on pretty slow. I prefer Levent's method which he uses slides and also skip the easy parts and mention the important material.
+                    <strong>Notes:</strong>  It was a solid introduction to convex analysis,
+                     but I expected more from this course, having taken CO 255 and CO 442 before.
+                    It helped me improve my analysis. Vavasis is a pretty good lecturer,
+                     but he proves every single detail which caused the course to move on pretty slow. 
+                     I prefer Levent's method which he uses slides and also skip the easy parts and mention the 
+                     important material.
                                                                               </p>
                 </div>
               </CardContent>
@@ -740,8 +793,18 @@ export default function HomePage() {
                   <p className="text-muted-foreground"><strong>Instructor:</strong>  Eric Blais</p>
                   <p className="text-muted-foreground"><strong>My Grade:</strong> 98</p>
                   <p className="text-muted-foreground">
-                    <strong>Notes:</strong>  A solid introduction to complexity, definitely more breadth than depth. I like Eric Blais teaching style, which is asking a lot of questions in the lecture and make students to think in groups. But he does this SO MANY TIMES which makes the course to be slow. We touched a lot of things but we did not go in depth on any of the materials which is sad for an advance version. But I can't deny that I learnt so much in course.
-                      You will learn about Turing machines, what they can do and what they can't. Then It will move on to time complexity classes Like P, NP, co-NP, EXP, Polynomial hierarchy etc. After that, we discussed Probabilistic methods and classes like BPP. Then we moved to circuit complexity which was super interesting. Honestly I am no expert in Complexity but I believe if humanity one day solves P vs NP, It will be using circuit complexity. At the end, we did space complexity as well.                                                                                                </p>
+                    <strong>Notes:</strong>  A solid introduction to complexity, 
+                    definitely more breadth than depth. I like Eric Blais teaching style, which
+                     is asking a lot of questions in the lecture and make students to think in groups. 
+                     But he does this SO MANY TIMES which makes the course to be slow. We touched a 
+                     lot of things but we did not go in depth on any of the materials which is sad for 
+                     an advanced version. But I can't deny that I learnt so much in course.
+                      You will learn about Turing machines, what they can do and what they can't. Then
+                       It will move on to time complexity classes Like P, NP, co-NP, EXP, Polynomial 
+                       hierarchy etc. After that, we discussed Probabilistic methods and classes like BPP. 
+                       Then we moved to circuit complexity which was super interesting. Honestly 
+                       I am no expert in Complexity but I believe if humanity one day solves P vs NP,
+                        It will be using circuit complexity. At the end, we did space complexity as well.                                                                                                </p>
                 </div>
               </CardContent>
             )}
@@ -770,10 +833,16 @@ export default function HomePage() {
               <CardContent>
                 <div className="space-y-4">
                   <p className="text-muted-foreground"><strong>Course Rating:</strong> 7/10</p>
-                  <p className="text-muted-foreground"><strong>Instructor:</strong>  Alexadru Nica</p>
+                  <p className="text-muted-foreground"><strong>Instructor:</strong>  Alexandru Nica</p>
                   <p className="text-muted-foreground"><strong>My Grade:</strong> 100</p>
                   <p className="text-muted-foreground">
-                    <strong>Notes:</strong>  A nice course which I think it's neccessary if you want to do research in math (including TCS). Andu was pretty slow though, I don't want to brag but he mentioned a problem at the beginning of the lecture, which you can solve it in your head in couple of seconds. But he went over the proof for the whole lecture. Maybe this was due to the fact that we learnt a bit topology in 247 and the first half of the course, was reviewing. The assignments were pretty boring too. But the final was super interesting. I think the problems that I solved in the final made me giving this high score to the curse, otherwise it deserved less.
+                    <strong>Notes:</strong>  A nice course which I think it's necessary if you want to do research in math
+                     (including TCS). Andu was pretty slow though, I don't want to brag but he mentioned 
+                     a problem at the beginning of the lecture, which you can solve it in your head in couple of seconds.
+                      But he went over the proof for the whole lecture. Maybe this was due to the fact that we learnt a
+                       bit topology in 247 and the first half of the course, was reviewing. The assignments were pretty 
+                       boring too. But the final was super interesting. I think the problems that I solved in the final
+                        made me giving this high score to the coure, otherwise it deserved less.
                                                                                                   </p>
                 </div>
               </CardContent>
@@ -806,7 +875,8 @@ export default function HomePage() {
                   <p className="text-muted-foreground"><strong>My Grade:</strong> 100</p>
                   <p className="text-muted-foreground">
                     <strong>Notes:</strong> 
-                    It was a meh course, I did learn measure theory but I was not amazed by it. I expected a 4xx pure math course to be more interesting.                                                                                                  </p>
+                    It was a meh course, I did learn measure theory but I was not amazed by it. 
+                    I expected a 4xx pure math course to be more interesting.                                                                                                  </p>
                 </div>
               </CardContent>
             )}
@@ -838,7 +908,13 @@ export default function HomePage() {
                   <p className="text-muted-foreground"><strong>My Grade:</strong> 99</p>
                   <p className="text-muted-foreground">
                     <strong>Notes:</strong> 
-                   I wasted my money on this course. Me and my friend were super excited about this course, since we both loved graph theory and linear algebra. I don't think I learnt a single thing in this course that I did not know before. Assignments were super easy/not interesting and the grading scheme was in a way that everyone will get a high mark, without needing to do much. Projects were horrible. I did like Jane. She is a pretty kind person. But I did not enjoy her teaching Maybe I am biased cause I have taken Levent/Swamy courses before.
+                   I wasted my money on this course. Me and my friend were super excited about
+                    this course, since we both loved graph theory and linear algebra. I don't think 
+                    I learnt a single thing in this course that I did not know before. Assignments 
+                    were super easy/not interesting and the grading scheme was in a way that everyone
+                     will get a high mark, without needing to do much. Projects were horrible.
+                      I did like Jane. She is a pretty kind person. But I did not enjoy her 
+                      teaching Maybe I am biased cause I have taken Levent/Swamy courses before.
                                         </p>
                 </div>
               </CardContent>
@@ -859,12 +935,13 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Contact</h2>
           <div className="max-w-2xl mx-auto text-center">
             <p className="text-lg text-muted-foreground mb-8">
-              I'm always interested in discussing research collaborations, speaking opportunities, or any other non-academic related topics!
+              I'm always interested in discussing research collaborations, speaking opportunities,
+               or any other non-academic related topics!
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <Button variant="outline" size="lg">
                 <Mail className="mr-2 h-4 w-4" />
-                msohrabi@uwaterloo.ca
+                msohrabi-at-uwaterloo-dot-ca
               </Button>
               
             </div>
